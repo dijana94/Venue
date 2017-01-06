@@ -3,12 +3,12 @@ Link to the live website: http://svesam.com/304_project/
 The live website does not have the same code as in this git repository; the db connections have been altered 
 and for security reasons not published here.
 
-As a new customer please create an account by following the "Sign Up" link. Or, if you prefer, you may use any of the following:
-  unsername             password
-  diana@ubccs.ca        diana
-  nerd92@gmail.com      eric
-  daniel@gmail.com      daniel
-  mullerf@gmail.com     fmuller
+As a new customer please create an account by following the "Sign Up" link. Or, if you prefer, you may use any of the following
+(username, password):
+  diana@ubccs.ca        diana,
+  nerd92@gmail.com      eric,
+  daniel@gmail.com      daniel,
+  mullerf@gmail.com     fmuller,
   anita@gmail.com       anita
 
 None of the above data is legitamate. This data was created for the purpose of this project and in no way represents real 
