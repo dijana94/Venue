@@ -1,0 +1,240 @@
+
+html,
+body {
+  height: 100%;
+  background-color: #222;
+  background-size: contain;
+}
+
+body {
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+font-family: Century Gothic, sans-serif;
+}
+
+
+/*
+ * Divs
+ */
+ 
+ 
+
+/*
+ * Main Button
+ */
+ .main_button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e67300;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 14px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.main_button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.main_button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.main_button:hover span {
+  padding-right: 25px;
+}
+
+.main_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*
+ * Secondary Button
+ */
+ .second_button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e6005c;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.second_button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.second_button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.second_button:hover span {
+  padding-right: 25px;
+}
+
+.second_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*
+ * Mini Button
+ */
+ .mini_button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e6005c;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.mini_button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.mini_button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.mini_button:hover span {
+  padding-right: 25px;
+}
+
+.mini_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+/*
+ * Navbar stuff
+ */
+ 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #5900b3;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.select-dropdown {
+	margin-left: 20px;
+	background-color: #e6005c;
+	  font-size: 18px;
+	
+}
+
+
+/*
+ *  Forms
+ */
+ input[type=email], input[type=text] {
+    width: 20%;
+	font-size: 14px;
+    padding: 12px 20px;
+    margin: 8px 0;
+	margin-left: 30px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+}
+input[type=password] {
+    width: 20%;
+	font-size: 14px;
+    padding: 12px 20px;
+    margin: 8px 0;
+	margin-left: 30px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
